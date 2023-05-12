@@ -7,7 +7,7 @@ The start configuration is at (x, y) = (-0.5, -0.5), the bottom left corner of t
 
 The program will take as input the obstacles.csv file and the output of the program will be three files: nodes.csv, edges.csv, and path.csv.
 
-_The csv motion planning kilobot scene will be utilized for visualization_
+*The csv motion planning kilobot scene will be utilized for visualization*
 
 #### The CSV Motion Planning Kilobot Scene:
 This scene allows you to visualize motion planning on an undirected graph using graph-search techniques such as A*. To visualize the planned motion, we are using the [kilobot](https://www.kilobotics.com/) robot moving in a planar square environment of dimensions -0.5 <= x <= 0.5 and -0.5 <= y <= 0.5. Obstacles are represented as cylinders, and the graph itself is illustrated as blue nodes with yellow edges. The path that the kilobot actually follows is indicated by green edges, and the goal node is in red. See the image to the right. This scene does not do motion planning. Instead, it displays the output of your motion planner. It expects you to provide the path to a folder with four files, named nodes.csv, edges.csv, path.csv, and obstacles.csv:
@@ -20,7 +20,7 @@ This scene allows you to visualize motion planning on an undirected graph using 
 
 
 
-#### ================================== PRM PLANNING ==================================
+#### =============PRM PLANNING ==================
 To start with, functions to read 'obstacles.csv' to list and to save nodes, edges, and path
 to csv was written. 
 
@@ -30,15 +30,15 @@ to csv was written.
 
 ##### ===========================================================
 `input`: The PRM_PLANNING function takes 4 inputs:
-	    => `obstacles_filepath` : the path to the 'obstacles.csv' file provided
-    	=> `N` : total number of nodes to be created in the nodes list
-    	=> `k`: Number of edges to be generated in the edges list
-    	=> `min_path_length` : minimum size of path list
+=> `obstacles_filepath` : the path to the 'obstacles.csv' file provided
+=> `N` : total number of nodes to be created in the nodes list
+=> `k`: Number of edges to be generated in the edges list
+=> `min_path_length` : minimum size of path list
 
 `It has been observed that the best choices for the hyperparameters are`:
-	=> N = 10 - 15  
-	=> k = 10 - 15  
-	=> min_path_length = 3–5
+=> N = 10 - 15  
+=> k = 10 - 15
+=> min_path_length = 3–5
 
 ##### ==========================================================
 <> *The `'Code' folder` consists of three files*:
