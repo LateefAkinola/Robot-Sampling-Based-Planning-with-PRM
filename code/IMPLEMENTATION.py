@@ -1,5 +1,4 @@
-================IMPLEMENTING THE CODE================
----------------------------------------
+# ================IMPLEMENTING THE CODE================
 
 # CALLING THE FUNCTIONS
 
@@ -13,10 +12,10 @@ read_list_to_csv("results\path.csv", path)
 read_array_to_csv("results\\nodes.csv", np.array(nodes))
 read_array_to_csv("results\edges.csv", np.array(edges))
 
---------------------------------------
-OUTPUT:
+# --------------------------------------
+# OUTPUT:
 
-The Optimal Path is: [ 1.  8. 14. 15.]
+# The Optimal Path is: [ 1.  8. 14. 15.]
 
 #Also, it would have saved these files:
-path as 'path.csv', nodes as 'nodes.csv', and edges as 'edges.csv'
+# path as 'path.csv', nodes as 'nodes.csv', and edges as 'edges.csv'
