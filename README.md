@@ -1,5 +1,7 @@
 # Robot-Sampling-Based-Planning-with-PRM
 
+![results_screenshot](https://github.com/LateefAkinola/Robot-Sampling-Based-Planning-with-PRM/assets/105966848/0a6ecc81-db0a-4109-94a7-0512533456c0)
+
 ### GOAL:
 To write a PRM program for the implementation of a sampling-based planning, to find a path for a point robot through the cluttered planar environment with predefined obstacles.
 The program will choose its own random samples in the (x, y) C-space, which is the square [-0.5, 0.5] x [-0.5, 0.5]. A straight-line planner will be employed and the distance between any two configurations is simply the Euclidean distance
